@@ -13,7 +13,7 @@ import os
 import re
 from unittest.mock import patch
 
-GOOGLE_API_KEY = "AIzaSyCfvqtsZ2Tu5gWX099AAsiPoHkApG4Nx28"
+GOOGLE_API_KEY = "Your_API_KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
 
@@ -197,8 +197,8 @@ def run_java_tests(java_test_code, original_java_code):
         temp_file.write(java_test_code_cleaned)
 
     #JAR dosyalarının tam yolu
-    junit_jar_path = "C:\\Users\\YAPRAK\\PycharmProjects\\pythonProject3\\junit-4.12.jar"
-    hamcrest_jar_path = "C:\\Users\\YAPRAK\\PycharmProjects\\pythonProject3\\hamcrest-core-1.3.jar"
+    junit_jar_path = "junit-4.12.jar dosya yolu"
+    hamcrest_jar_path = "hamcrest-core-1.3.jar dosya yolu"
 
     #orijinal java kodunu derlema
     result = subprocess.run(["javac", original_java_file], capture_output=True, text=True)
