@@ -42,7 +42,9 @@ cd AI-TestAutomation-
 
 2-Gerekli Python kütüphanelerini yükleyin:
 
+```
 pip install google-generativeai
+```
 
 3-Java'nın sisteminizde yüklü olduğundan emin olun.
 
@@ -53,7 +55,11 @@ pip install google-generativeai
 6-JAR Dosya Yolları: junit_jar_path ve hamcrest_jar_path değişkenlerine junit-4.12.jar ve hamcrest-core-1.3.jar dosyalarının yollarını girin.
 
 ### Projenin Çalışması
-![image](https://github.com/user-attachments/assets/840d463b-6dfe-4f6f-9fec-1b735322d93a)
+![image](https://github.com/user-attachments/assets/840d463b-6dfe-4f6f-9fec-1b735322d93a) İlk olarak bir fonksiyon girilir.
+
+![image](https://github.com/user-attachments/assets/a1ec23c6-1e16-48fd-aa91-01ec28609e6e) Fonksiyon için birim, entegrasyon ve performans testleri oluşturulur. Burada bir tane örneği verilmiştir.
+
+![image](https://github.com/user-attachments/assets/ca8637ef-6c8f-4028-8911-d26be0421c77) Tüm testlerin çalıştırılıp sonuçlarının başarılı ve başarısız olduğu ekranda yazdırılır.
 
 
 ### Lisans
