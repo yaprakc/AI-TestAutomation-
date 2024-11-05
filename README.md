@@ -32,11 +32,13 @@ unittest: Python birim testleri için kullanılan framework
 ### Kurulum
 1-Rehberliği klonlayın:
 
+```
 git clone https://github.com/yaprakc/AI-TestAutomation-.git
+```
 
-'''
-cd AI-TestAutomation- 
-'''
+```
+cd AI-TestAutomation-
+```
 
 2-Gerekli Python kütüphanelerini yükleyin:
 
@@ -49,6 +51,9 @@ pip install google-generativeai
 5-API Anahtarı Konfigürasyonu: GOOGLE_API_KEY değişkenini kendi Google Gemini API anahtarınızla güncelleyin.
 
 6-JAR Dosya Yolları: junit_jar_path ve hamcrest_jar_path değişkenlerine junit-4.12.jar ve hamcrest-core-1.3.jar dosyalarının yollarını girin.
+
+### Projenin Çalışması
+![image](https://github.com/user-attachments/assets/840d463b-6dfe-4f6f-9fec-1b735322d93a)
 
 
 ### Lisans
